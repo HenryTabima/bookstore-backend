@@ -1,24 +1,43 @@
-# README
+# React-Bookstore
+This is a Bookstore CMS build in reactjs  and redux.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Getting Started
 
-Things you may want to cover:
+clone frontend repo
+```
+git clone https://github.com/SunnyAsar/react-Bookstore
+```
 
-* Ruby version
+clone backend repo
+```
+git clone https://github.com/HenryTabima/bookstore-backend
+```
 
-* System dependencies
+install dependencies in both projects
+```
+# For frontend
+npm install
 
-* Configuration
+# For backend
+bundle install
+rails db:migrate
+rails db:seed
+```
 
-* Database creation
+Start rails server (inside rails project folder)
+```
+rails s -p 4000
+```
+> Make sure that the development backend is running in port 4000
 
-* Database initialization
+Start frontend server (inside react project folder)
+```
+npm start
+```
 
-* How to run the test suite
+open `localhost:3000` in your browser
 
-* Services (job queues, cache servers, search engines, etc.)
+## Contributors
+**Asar Sunny**
 
-* Deployment instructions
-
-* ...
+**Tabima Henry Giraldo**
